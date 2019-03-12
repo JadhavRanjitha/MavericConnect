@@ -13,6 +13,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MavericLoginPage {
 	
+	
+	
 	@FindBy(id="LoginForm_username")
 	private WebElement userNameEle;  // encapsulation --> protecting webelement
 	 
