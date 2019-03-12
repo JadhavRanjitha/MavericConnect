@@ -21,7 +21,9 @@ public class MavericLoginPage {
 	
 	@FindBy(xpath="//input[@type='submit']")
 	 WebElement loginEle;
-
+ 
+	
+	
 	
 	@FindBy(how=How.ID,using="LoginForm_password_em_")
 	WebElement errorTextEle;
