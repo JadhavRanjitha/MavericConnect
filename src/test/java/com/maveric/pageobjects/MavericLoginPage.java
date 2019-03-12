@@ -15,6 +15,8 @@ public class MavericLoginPage {
 	
 	
 	
+	
+	
 	@FindBy(id="LoginForm_username")
 	private WebElement userNameEle;  // encapsulation --> protecting webelement
 	 
